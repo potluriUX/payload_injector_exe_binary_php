@@ -369,14 +369,7 @@ class PI {
 
 }
 
-// Variables to output only JSON
-$json = true;
-$nohtml = true;
-$pluginapp_api = true;
 
-// Auth for current session
-$enforce_one_login = false;  //dont try to enforce one user login per account
-include 'connect.php';
 
 $pi = new PI();
 $pi->is_debug(false);
